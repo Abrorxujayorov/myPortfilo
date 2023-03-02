@@ -1,0 +1,128 @@
+.main{
+    width: 100%;
+    height: auto;
+    border: var(--border);
+    margin: var(--margin);
+    display: flex;
+    justify-content: end;
+    background: rgb(245, 248, 253);
+}
+.main2{
+    width: 80.3%;
+    // border: var(--border); 
+}
+.abaut{
+    max-width: 100%;
+    background-color: #fff;
+    height: 600px;
+    margin: var(--margin);
+    // border: var(--border);
+    text-align: start;
+}
+.abaut__title{
+    margin-left: 60px;
+    padding-top: 60px;
+    &__title{
+        font-size: 40px;
+        color: rgb(18, 47, 87);
+    }
+    &__hr{
+        width: 120px;
+        height: 5px;
+        border: none;
+        background-color: rgb(18, 47, 87);
+        border-radius: 20px;
+    }
+    &__info{
+        padding-top: 15px;
+        font-size: 20px;
+        
+    }
+}
+.myinfo{
+    display: flex;
+    padding-top: 10px;
+
+
+    &__pic{
+        width: 400px;
+        height: 300px;
+        padding: 5px;
+        margin-left: 60px;
+    }
+    &__right{
+        margin-left: 30px;
+        display: block;
+    }
+    &__right b{
+        font-size: 30px;
+        color: var(--color);
+    }
+    &__right p{
+        color: var(--color2);
+
+    }
+    &__buttom{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__list{
+        list-style-type:circle;
+    }
+    &__list li {
+        margin-top: 1em;
+    }
+    &__list sub{
+        margin-left: 5px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 992px){
+    .main2{
+        width: 100%;
+    }
+    .abaut{
+        width: 98%;
+        flex-direction: column;
+        height: auto;
+        margin-left: 0;
+    }
+    .abaut__title{
+        margin-left: 15px;
+        padding-top: 15px;
+    }
+    .myinfo{
+        flex-direction: column;
+    
+    &__pic{
+        margin: var(--margin);
+        width: 90%;
+        height: 300px;
+    }
+    &__right{
+        flex-direction: column;
+        margin-top: 5px;
+    }
+    &__buttom{
+        flex-direction: column;
+    }
+}
+}

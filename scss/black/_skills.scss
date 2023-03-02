@@ -1,0 +1,180 @@
+.skills{
+    height: 500px;
+    margin: var(--margin);
+    border: var(--border);
+    padding-top: 50px;
+    background: rgb(245, 248, 253);
+    max-width: 1150px;
+    &__title{
+        margin-left: 60px;
+    }
+    &__tinfo{
+        font-size: 18px;
+        margin-top: 15px;
+    }
+    &__content{
+        // margin-left: 60px;
+        border: var(--border);
+        width: 90%;
+        margin: var(--margin);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    &__info{
+        width: 500px;
+        height: 100%;
+        margin-top: 1em;
+        // border: var(--border);
+    }
+    &__info h3{
+        font-size: 18px;
+    }
+}
+.bar{
+    max-width: 500px;
+    height: 5px;
+    // border: 1px solid;
+	background-color: #353b48;
+    margin: 0px 0px 15px 0px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px #2187e7b3;
+}
+.html{
+    width: 80%;
+    height: 5px;
+    background: rgb(179, 59, 16);
+    animation: html 10s infinite;
+}
+.CSS{
+    width: 70%;
+    height: 5px;
+    background: rgb(19, 15, 227);
+    animation: CSS 10s infinite;
+}
+.BOOTSTRAP{
+    width: 90%;
+    height: 5px;
+    background: rgb(21, 15, 189);
+    animation: BOOTSTRAP 10s infinite;
+}
+.JAVASCRIPT{
+    width: 40%;
+    height: 5px;
+    background: rgb(245, 245, 9);
+    animation: JAVASCRIPT 10s infinite;
+}
+.REACT{
+    width: 1%;
+    height: 5px;
+    background: rgba(25, 173, 15, 0.629);
+    animation: REACT 10s infinite;
+}
+.GITHUB{
+    width: 80%;
+    height: 5px;
+    background: rgba(240, 243, 240, 0.629);
+    animation: GITHUB 10s infinite;
+}
+.PYTHON{
+    width: 30%;
+    height: 5px;
+    background: rgba(57, 48, 140, 0.629);
+    animation: PYTHON 10s infinite;
+}
+.DJANGO{
+    width: 10%;
+    height: 5px;
+    background: rgba(57, 48, 140, 0.629);
+    animation: DJANGO 10s infinite;
+}
+.PHP{
+    width: 15%;
+    height: 5px;
+    background: rgb(115, 119, 173);
+    animation: PHP 10s infinite;
+}
+@keyframes html {
+    0%{
+        width: 0px;
+    }
+    50%{
+        width: 80%;
+    }
+}
+@keyframes CSS {
+    0%{
+        width: 0px;
+    }
+    50%{
+        width: 70%;
+    }
+}
+@keyframes BOOTSTRAP {
+    0%{
+        width: 0px;
+    }
+    50%{
+        width: 90%;
+    }
+}
+@keyframes JAVASCRIPT {
+    0%{
+        width: 0px;
+    }
+    50%{
+        width: 40%;
+    }
+}
+@keyframes REACT {
+    0%{
+        width: 0px;
+    }
+    50%{
+        width: 1%;
+    }
+}
+@keyframes GITHUB {
+    0%{
+        width: 0px;
+    }
+    50%{
+        width: 80%;
+    }
+}
+@keyframes PYTHON {
+    0%{
+        width: 0px;
+    }
+    50%{
+        width: 40%;
+    }
+}
+@keyframes DJANGO {
+    0%{
+        width: 0px;
+    }
+    50%{
+        width: 10%;
+    }
+}
+@keyframes PHP {
+    0%{
+        width: 0px;
+    }
+    50%{
+        width: 15%;
+    }
+}
+
+
+@media screen and (max-width: 992px){
+    .skills{
+        width: 100%;
+        height: auto;
+    &__title{
+        margin-left: 15px ;
+
+    }
+}
+}

@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Serif Pro', serif;
+}
+:root{
+    // --border: 1px black solid;
+    --margin: 0 auto;
+    --color: rgb(18, 47, 87);
+    --color2: rgb(39, 40, 41) ;
+}
+body{
+    font-family: 'Source Serif Pro', serif;
+}
+.contaniner{
+    width: 100%;
+    height: auto;
+    margin: var(--margin);
+    border: var(--border);
+}
+.mini__container{
+    width: 100%;
+    height: 100%;
+}

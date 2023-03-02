@@ -1,0 +1,48 @@
+.hero{
+    width: 100%;
+    height: 100%;
+    // position: sticky;
+}
+.bgimg{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.my-info{
+    position: absolute;
+    left: 35%;
+    top: 35%;
+}
+.my-t{
+    font-size: 50px;
+    color: #fff;
+    display: inline;
+}
+.work-info{
+    font-size: 25px;
+    color: #fff;
+    animation: man 10s infinite;
+}
+.dima-f:hover{
+    text-shadow: 10px 10px 10px rgb(42, 165, 46);
+}
+@keyframes man {
+    50%{margin-bottom: 10px; color: aqua; text-shadow: 10px 10px 30px rgb(221, 221, 221);}
+    100%{ padding: bottom 0px; ; color: red; text-shadow: 10px 10px 30px red;}
+}
+
+
+@media screen and (max-width: 992px){
+    .bgimg{
+        height: 600px;
+        z-index: -1;
+    }
+    .my-info{
+        top: 45%;
+        left: 30%;
+        line-height: normal;
+    }
+    .my-t{
+        font-size: 25px;
+    }
+}

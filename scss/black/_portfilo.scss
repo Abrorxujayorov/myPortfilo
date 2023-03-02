@@ -1,0 +1,84 @@
+.hr{
+    width: 150px;
+    height: 5px;
+    background: rgb(33, 17, 169);
+    border-radius: 30px;
+}
+.portfilo{
+    padding-top: 30px;
+    max-width: 1150px;
+    height: 1000px;
+    margin: 800px auto 0px;
+    border: var(--border);
+    background: rgb(245, 248, 253);
+    &__title{
+        margin-left: 60px;
+    }
+    &__title h2{
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    &__contint{
+        display: flex;
+        margin-left: 60px;
+        margin-top: 30px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    &__pic{
+        width: 300px;
+        height: 230px;
+        margin-top: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1300px){
+    .portfilo{
+        margin: 1090px auto 0px;
+    }
+    .skills{
+        margin-left: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 992px){
+    .portfilo{
+        margin: 0px auto;
+        padding-top: 0px;
+        width: 98%;
+        height: auto;
+        &__title{
+            margin-left: 0px;
+            padding-top: 30px;
+        }
+        &__contint{
+            margin-left: 0px ;
+            justify-content: center;
+        }
+        &__pic{
+            margin-left: 0px;
+        }
+    }
+    .skills{
+        margin-left: 0px;
+    }
+}

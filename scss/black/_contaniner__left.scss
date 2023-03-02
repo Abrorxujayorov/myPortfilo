@@ -1,0 +1,136 @@
+.contaniner__left{
+    width: 100%;
+    height: 100%;
+    border: var(--border);
+    position: fixed;
+    display: flex;
+    position: sticky;
+}
+.mini__left_contaniner{
+    width: 300px;
+    height: 100%;
+    text-align: center;
+    background-color: rgb(20, 17, 17);
+    color: #fff;
+    justify-content: center;
+    position: fixed;
+}
+.mini__left_contaniner img{
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 16px;
+    margin-bottom: 20px;
+    padding: 6px;
+    background: rgba(86, 72, 72, 0.721);
+}
+.Dima__flex{
+    list-style: none;
+    margin: 0;
+}
+.mini__left_contaniner h3{
+    font-size: x-large;
+}
+.mini__dima__lest{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: center;
+    margin-top: 12px;
+    gap: 0px;
+    width: 70%;
+    box-sizing: content-box;
+}
+.mini__dima__lest li{
+    background: #000;
+    border-radius: 50%;
+}
+.mini__dima__lest a{
+    font-size: 25px;
+    padding: 10px;
+    color: #fff;
+}
+.mini__dima__lest li:hover{
+    background: #fff;
+    color: #000;
+}
+.mini__dima__lest li:hover a{
+    color: #000;
+}
+.home__lest{
+    list-style: none;
+    margin: 5px;
+}
+.home__item{
+    margin: 15px 0px;
+}
+.home__link{
+    display: flex;
+    text-decoration: none;
+    font-size: x-large;
+    color: rgba(230, 243, 232, 0.527);
+    gap: 25px;
+}
+.home__link :hover{
+    opacity: .5;
+}
+.home__link :active{
+    color: blue;
+}
+.home__link i{
+    font-size: large;
+}
+.left__footer{
+    margin-top: 50px;
+}
+.left__footer h4{
+    font-family: serif;
+    margin-bottom: 10px;
+}
+.left__footer p{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-family: serif;
+}
+.left__footer a{
+    text-decoration: none;
+}
+
+
+
+@media screen and (max-width: 992px){
+    .contaniner{
+        width: 100%;
+        background-image: url("../../img/my_pic.jpg");
+    }
+    .contaniner__left{
+        display: block;
+        width: 100%;
+        position: absolute;
+        border: none;
+    }
+    
+    .mini__left_contaniner{
+        width: 100%;
+        font-size: large;
+        margin-top: 56px;
+        border: none;
+    }
+    #left__lest{
+        display: none;
+    }
+    .Dima__flex h3{
+        font-size: 12px;
+    }
+    .mini__dima__lest{
+        justify-content: space-between;
+    }
+    .home__item p{
+        font-size: 15px;
+    }
+    .left__footer{
+        display: block;
+        font-size: 10px;
+        margin-top: 350px;
+    }
+}

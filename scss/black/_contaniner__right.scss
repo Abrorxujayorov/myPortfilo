@@ -1,0 +1,45 @@
+.contaniner__right{
+    width: 100%;
+    height: 100%;
+    border: var(--border);
+}
+.hamburger{
+    display: none;
+    width: 100%;
+    background: #fff;
+    opacity: .1;
+    position: fixed;
+    top: 0;
+}
+.hom{
+    padding: 5px 15px;
+    font-size: 30px;
+    border: none;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 992px){
+    .contaniner__right{
+        max-width: 100%;
+        background-image: url('../../img/my_pic.jpg');
+        background-repeat: no-repeat;
+        margin-top: 56px;
+    }
+    .hamburger{
+        display: block;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+}
+
